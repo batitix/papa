@@ -292,20 +292,39 @@ div#map {
 }
 
 span.Seat_Numbr {
-    font-size: 22px;
+    font-size: 21px;
     color: #848484;
     margin-left: 8px;
 }
 
 span.tkt_icon {
-    background-image: url(tkt_icon.png);
-    background-size: 27px;
-    background-repeat-x: no-repeat;
-    background-position: -1px -5px;
     float: right;
     padding-left: 30px;
     color: #b6b6b6;
     font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+img.tkt_img {
+    width: 26px;
+    margin-right: 3px;
+}
+
+
+.bar_page2 {
+    width: 100%;
+    height: 47px;
+    background: #fafafd;
+    position: fixed;
+    bottom: 0;
+    padding-top: 22px;
+    border: 1px solid #d9d9d9;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
 
 
@@ -329,25 +348,25 @@ div#Select_seat input {
 div#Select_seat input + label span {
     content: "";
     display: inline-block;
-    width: 107px;
-    height: 110px;
+    width: 95px;
+    height: 95px;
     margin: -1px 4px 0 0;
     vertical-align: middle;
     background: url(checkbox21.png) no-repeat;
     cursor: help;
-    background-size: 215px;
+    background-size: 199px;
 }
 
 div#Select_seat input.checkbox2 + label span.checkbox2 {
     content: "";
     display: inline-block;
-    width: 107px;
-    height: 110px;
+    width: 95px;
+    height: 95px;
     margin: -1px 4px 0 0;
     vertical-align: middle;
     background: url(checkbox22.png) no-repeat;
     cursor: help;
-    background-size: 215px;
+    background-size: 199px;
 
 }
 
@@ -355,20 +374,20 @@ div#Select_seat input.checkbox2 + label span.checkbox2 {
 div#Select_seat input.checkbox3 + label span.checkbox3 {
     content: "";
     display: inline-block;
-    width: 107px;
-    height: 110px;
+    width: 95px;
+    height: 95px;
     margin: -1px 4px 0 0;
     vertical-align: middle;
     background: url(checkbox23.png) no-repeat;
     cursor: help;
-    background-size: 215px;
+    background-size: 199px;
 
 }
 
 div#Select_seat input[type="checkbox"] + label span { background-position:left top; }
 
 
-div#Select_seat input[type="checkbox"]:checked + label span { background-position:-104px top; }
+div#Select_seat input[type="checkbox"]:checked + label span { background-position:-96px top; }
 
 
 
